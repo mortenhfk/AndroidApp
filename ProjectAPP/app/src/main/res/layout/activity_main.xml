@@ -10,15 +10,12 @@
     <Button
         android:id="@+id/ExitButton"
         android:layout_width="170dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="153dp"
+        android:layout_height="78dp"
         android:background="@drawable/gradient"
-        android:text="Exit"
-        app:backgroundTint="@drawable/gradient"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/modeButton" />
+        android:text="exit"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="500dp"
+        tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/modeButton"
@@ -26,13 +23,15 @@
         android:layout_height="0dp"
         android:layout_marginTop="393dp"
         android:layout_marginBottom="29dp"
+        android:layout_weight="1"
         android:background="@drawable/gradient"
-        android:text="Mode"
-        app:backgroundTint="@drawable/gradient"
+        android:text="@string/mode"
+        android:visibility="visible"
         app:layout_constraintBottom_toTopOf="@+id/ExitButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:visibility="visible" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -44,6 +43,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/giphy" />
+        app:srcCompat="@drawable/giphy"
+        tools:ignore="ContentDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
