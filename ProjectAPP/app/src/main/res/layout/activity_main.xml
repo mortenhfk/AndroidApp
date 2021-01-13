@@ -12,7 +12,9 @@
         android:layout_width="170dp"
         android:layout_height="0dp"
         android:layout_marginBottom="153dp"
+        android:background="@drawable/gradient"
         android:text="Exit"
+        app:backgroundTint="@drawable/gradient"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -24,20 +26,24 @@
         android:layout_height="0dp"
         android:layout_marginTop="393dp"
         android:layout_marginBottom="29dp"
+        android:background="@drawable/gradient"
         android:text="Mode"
+        app:backgroundTint="@drawable/gradient"
         app:layout_constraintBottom_toTopOf="@+id/ExitButton"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="461dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginBottom="388dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/giphy" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
