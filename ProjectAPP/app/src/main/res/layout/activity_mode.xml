@@ -13,7 +13,7 @@
         android:layout_height="85dp"
         android:layout_marginStart="111dp"
         android:layout_marginLeft="111dp"
-        android:layout_marginTop="252dp"
+        android:layout_marginTop="280dp"
         android:layout_marginEnd="112dp"
         android:layout_marginRight="112dp"
         android:text="Auto"
@@ -42,5 +42,14 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/auto" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="186dp"
+        android:layout_height="69dp"
+        android:text="Device Paired"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="103dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
